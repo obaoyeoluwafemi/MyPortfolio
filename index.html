@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obaoye Oluwafemi portfolio Website</title>
+    <link rel="stylesheet" href="portfolio2.css">
+    <script src="https://kit.fontawesome.com/f02d51df01.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#servies">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Hi There!</p>
+                <hi>I'm <span>Oluwafemi Obaoye</span><br> A Frontend Developer from Nigeria</hi>
+            </div>
+        </div>
+    </div>
+    <!----------about-------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/femi.png">
+                </div>
+                <div class="about-col-2">
+                    <hi class="sub-title">About Me</hi>
+                    <p>Hi there!<br> My name is Oluwafemi Obaoye, and I'm a frontend developer with two years of
+                        experience
+                        creating responsive and
+                        user-friendly web applications.
+
+                        I graduated with a degree in Computer Education from University of Nigeria, NSUKKA, where I
+                        gained a solid foundation in
+                        programming languages such as HTML, CSS, and JavaScript. Since then, I have worked on a variety
+                        of projects that have
+                        allowed me to sharpen my skills and expand my knowledge.
+
+                        In my current role at AbiolaSoft, I am responsible for designing and implementing intuitive
+                        interfaces that enhance user
+                        experience. I have a strong understanding of modern web development frameworks, including React
+                        and Vue, and I'm
+                        proficient in using version control tools like Git.
+
+                        I enjoy working collaboratively with cross-functional teams, and I am always looking for
+                        opportunities to learn and grow
+                        in my field. When I'm not coding, you can find me exploring the latest frontend technologies or
+                        contributing to
+                        open-source projects.
+
+                        If you're looking for a dedicated frontend developer who is passionate about building innovative
+                        web applications, I
+                        would love to chat with you!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>FrontEnd</span><br>Developing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Andriod/iOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - current</span><br>FrontEnd Software Engineer</li>
+                            <li><span>2021 - 2022</span><br>UI/UX Designer</li>
+                            <li><span>2019 - 2021</span><br>Graphics Designing</li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018</span><br>Barchelor Degree in Computer Education(Second Class Upper)</li>
+                            <li><span>2013</span><br>Diploma Certificate in Computer Science (Upper Credit)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------services------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title" My Services></h1>
+            <div class="services-list">
+                <div class="services-list">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Wed Design</h2>
+                    <p>Lorem ipsum dolo sit ameat, consectetur adipiscing elit, sed nulla nibh,
+                        tincidunt sit amet sapien quis.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div class="services-list">
+                    <i class="fa-sharp fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolo sit ameat, consectetur adipiscing elit, sed nulla nibh,
+                        tincidunt sit amet sapien quis.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div class="services-list">
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolo sit ameat, consectetur adipiscing elit, sed nulla nibh,
+                        tincidunt sit amet sapien quis.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--------portfolio------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The App connects you to the talented people around the world.
+                            Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The App connects you to the talented people around the world.
+                            Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-----------contact--------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact</h1>
+                    <p><i class="fas fa-paper-plane"></i>contact@obaoyeoluwafemi28@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>+2348124547278</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-twitter-square"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/My- Resume.pdf" download class="btn btn2">Download CV</a>
+
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ Oluwafemi. Made <i claass="fas fa-heart"></i>by Obaoye Oluwafemi</p>
+
+        </div>
+    </div>
+
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontents of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+
+
+    </script>
+</body>
+
+</html>
